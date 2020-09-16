@@ -86,3 +86,28 @@ h1{
     margin: 10px;
     text-decoration-line: none;
 }
+
+.jogos{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.underconstruction {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#492378, #9C4AFF);
+}
+.underconstruction h1{
+    position: relative;
+    animation: teste 6s linear infinite;
+}
+
+@keyframes teste {
+    100% {
+        transform: rotateY(360deg);
+    }
+}
